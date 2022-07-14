@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.container {
+    width: 1305px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 30px;
+    height: 70px;
+    background-color: rgb(96, 189, 110);
+    .logo {
+        width: 30%;
+    }
+    .header__inner {
+        display: flex;
+    }
+    .list__menu {
+        display: flex;
+    }
+    .link__menu {
+        margin-right: 15px;
+    }
+    .nav {
+        width: 50%;
+    }
+}
+
+.news {
+    margin-top: 150px;
+    .news__inner {
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        grid-column-gap: 80px;
+        grid-row-gap: 10px;
+    }
+    .item {
+        text-align: center;
+        padding-top: 30px;
+        width: 250px;
+        height: 120px;
+        background-color: green;
+    }
+    .descr {
+        font-size: 10px;
+    }
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 580px;
+    height: 420px;
+    background-color: rgb(96, 189, 110);
+    display: flex;
+    flex-direction: column;
+    select {
+        padding: 10px;
+        margin-top: 10px;
+    }
+    button,
+    input {
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
